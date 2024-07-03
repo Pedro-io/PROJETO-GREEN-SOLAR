@@ -1,0 +1,14 @@
+cookie:
+  expiry_days: 30
+  key: your_cookie_key
+  name: your_cookie_name
+credentials:
+  usernames:
+    user1:
+      name: User1
+      password: $2b$12$D.ebM40KhFfZGv0oX.rgZe.gRqM3Hzc1mkK2Zkxvj.2Y3AANWFayC
+    user2:
+      name: User2
+      password: $2b$12$JFo2SY/NkZUlW6tqlQRQi.qXfdVPitBxjLwU7X1QDdp4HpRQC3XsC
+preauthorized:
+  emails: []

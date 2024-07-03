@@ -7,7 +7,7 @@ SET SQL_SAFE_UPDATES = 0;
 DELETE FROM fato_green;
 DELETE FROM dim_estacao;
 DELETE FROM dim_vento;
-DELETE FROM tempo;
+DELETE FROM dim_tempo;
 
 -- Reativar o modo de atualização segura
 SET SQL_SAFE_UPDATES = 1;

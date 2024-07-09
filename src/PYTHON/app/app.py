@@ -9,7 +9,7 @@ st.set_page_config(
     page_title="Carga de Dados",
     layout="wide",
     initial_sidebar_state="expanded",
-    page_icon="src\\PYTHON\\app\\image\\Green_Logo.png",
+    page_icon="image\\Green_Logo.png",
     menu_items=None
 )
 
@@ -32,7 +32,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.sidebar.image("src\\PYTHON\\app\\image\\Green_Logo.png", width=64)
+st.sidebar.image("image\\Green_Logo.png", width=64)
 st.sidebar.title("Instruções para o uso do Aplicativo")
 st.sidebar.write("Bem-vindo ao nosso aplicativo de upload de dados!")
 st.sidebar.markdown("Instruções:")
@@ -75,7 +75,7 @@ def pagina_upload():
 
 st.title("Carga de Dados")
 
-with open("src\\PYTHON\\app\\config.yaml") as file:
+with open("config.yaml") as file:
     config = yaml.safe_load(file)
 
 pagina_upload()
